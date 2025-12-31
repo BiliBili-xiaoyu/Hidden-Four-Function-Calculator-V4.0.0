@@ -1,0 +1,14 @@
+{
+    "name": "Calculator",
+    "version": "4.0.0",
+    "description": "四则计算器",
+    "author": "B站-爱好中的烦恼",
+    "main_file": "Calculator.py",
+    "icon": "calculator.ico",
+    "onefile": true,
+    "windowed": true,
+    "clean": true,
+    "upx": true,
+    "hidden_imports": ["keyboard"],
+    "excludes": ["tkinter.test", "unittest", "pydoc"]
+}
